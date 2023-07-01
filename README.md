@@ -17,9 +17,9 @@ C1: 100nF 16/25v
 
 U1: AT28HC256E
 
-** Configuration **
+**Configuration:**
 
-J1 is used to select the rom
+**J1** is used to select the rom
 
 open: Rom Characters
 
@@ -28,7 +28,7 @@ open: Rom Characters
 2-3: rom Basic
 
 
-JP2 is used to bring CS2 into the 2332 ROMs.
+**JP2** is used to bring CS2 into the 2332 ROMs.
 
 It is needed only in the vic20 character rom because this computer uses both CS1,CS2 signals.
 
@@ -39,7 +39,7 @@ open: 2364 (or even 2332 C64)
 
 closed: 2332 Vic20 only (also works on 2332 C64)
 
-** Build a ROM **
+**Build a ROM:**
 
 To create the rom to be inserted into 28C256 you need to start from the character ROM and insert it 2 times (to get around the CS2 problem that might keep the A12 pin high).
 
